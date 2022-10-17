@@ -1,0 +1,14 @@
+- id: licensed-cache
+  name: licensed cache
+  description: Checks open source licensing compliance with licensed cache.
+  language: system
+  entry: licensed cache
+  exclude: ^.*$
+  always_run: true
+- id: licensed-status
+  name: licensed status
+  description: Checks open source licensing compliance with licensed status.
+  language: system
+  entry: licensed status
+  exclude: ^.*$
+  always_run: true
